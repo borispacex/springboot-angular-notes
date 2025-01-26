@@ -8,11 +8,8 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  public users$!: Observable<any>;
-  constructor(private usersService: UsersService){}
 
   ngOnInit(){
-    this.users$ = this.usersService.getUsers();
-    console.log("data", this.users$);
+    console.log('AppComponent initialized');
   }
 }

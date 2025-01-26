@@ -6,13 +6,6 @@ Para la ejecución del proyecto utilizaremos Docker creando contenedores para el
 - PostgreSQL 12
 
 ## BACKEND (SpringBoot)
-Variables de entorno de conexion a Base de Datos
-- DATABASE_URL
-- DATABASE_USERNAME
-- DATABASE_PASSWORD
-
-### Generación de compilados JAR
-
 Opción 1 (Tener Instalado Maven)
 ```
 mvn clean package -DskipTests

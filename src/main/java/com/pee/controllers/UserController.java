@@ -1,7 +1,9 @@
-package com.pee.dockerized.postgresql.user;
+package com.pee.controllers;
 
 import java.util.List;
 
+import com.pee.entities.User;
+import com.pee.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

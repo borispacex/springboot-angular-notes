@@ -1,4 +1,4 @@
-package com.pee.dockerized.postgresql;
+package com.pee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
