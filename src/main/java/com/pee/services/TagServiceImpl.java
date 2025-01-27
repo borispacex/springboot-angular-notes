@@ -46,8 +46,7 @@ public class TagServiceImpl implements TagService{
         Collection<Tag> savedTags = tagRepository.saveAll(tags);
         return savedTags;
     }
-
-
+    
     @Override
     public TagDTO updateTag(Long id, TagDTO tagDTO) {
         Tag tag = tagRepository.findById(id).orElseThrow();
