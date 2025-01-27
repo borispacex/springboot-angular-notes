@@ -2,16 +2,14 @@ package com.pee.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Collection;
 
 @Entity
-@Table(name="t_user")
+@Table(name="t_tag")
 @Getter
 @Setter
-@NoArgsConstructor
 public class Tag {
 
     @Id

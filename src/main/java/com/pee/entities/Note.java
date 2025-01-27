@@ -5,7 +5,6 @@ import com.pee.utils.Audit;
 import com.pee.utils.NoteStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Collection;
@@ -14,7 +13,6 @@ import java.util.Collection;
 @Table(name="t_note")
 @Getter
 @Setter
-@NoArgsConstructor
 public class Note extends Audit {
 
     @Id

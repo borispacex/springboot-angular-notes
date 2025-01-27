@@ -26,9 +26,7 @@ public class AuthServiceImpl implements AuthService {
     @Override
     public User createUser(SignupRequest signupRequest) {
         //Check if user already exist
-        if (userRepository.existsByEmail(signupRequest.getEmail())) {
-            return null;
-        }
+        if (userRepository.existsByEmail(signupRequest.getEmail())) return null;
 
         User user = new User();
         BeanUtils.copyProperties(signupRequest,user);

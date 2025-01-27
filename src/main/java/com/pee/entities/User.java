@@ -3,7 +3,6 @@ package com.pee.entities;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Collection;
@@ -12,7 +11,6 @@ import java.util.Collection;
 @Table(name="t_user")
 @Getter
 @Setter
-@NoArgsConstructor
 public class User{
 
 	@Id
